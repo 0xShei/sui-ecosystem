@@ -1,0 +1,67 @@
+# ============================================================
+# Sui Ecosystem Project .gitignore
+# ============================================================
+
+# --------------------------
+# Build and Compilation Files
+# --------------------------
+# Output directories for build artifacts (Rust, Move, or custom builds)
+build/
+target/
+cache/
+out/
+
+# --------------------------
+# Dependency Directories
+# --------------------------
+# Node.js dependencies (if you’re using any JS tooling)
+node_modules/
+
+# --------------------------
+# Environment and Local Configuration Files
+# --------------------------
+# Local configuration files and environment variables
+.env
+*.local
+
+# --------------------------
+# Logs and Temporary Files
+# --------------------------
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+tmp/
+temp/
+
+# --------------------------
+# Editor and IDE Folders
+# --------------------------
+# VSCode settings
+.vscode/
+# JetBrains IDEs (e.g., IntelliJ, WebStorm)
+.idea/
+# Eclipse or other IDE temporary folders
+*.iml
+
+# --------------------------
+# OS-Specific Files
+# --------------------------
+# macOS system files
+.DS_Store
+# Windows thumbnail cache files
+Thumbs.db
+
+# --------------------------
+# Other
+# --------------------------
+# Compiled object files (if applicable)
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.dSYM/
+
+# Coverage reports
+coverage/
